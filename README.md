@@ -22,19 +22,19 @@ Proyek ini adalah REST API sederhana yang dibuat dengan Node.js dan Express.js. 
    ```
 **End Point API**
 
--Buat server Express.js
+**-Buat server Express.js**
 
 ✅ Jalankan server di port 5000.
 
 ✅ Buat endpoint GET / yang mengembalikan teks "Hello Backend!".
 
--Endpoint GET /users
+**-Endpoint GET /users**
 
 ✅ Buat array users yang berisi daftar user.
 
 ✅ Buat endpoint GET /users yang mengembalikan data user dalam format JSON.
 
--Endpoint GET /users/:id
+**-Endpoint GET /users/:id**
 
 ✅ Ambil user berdasarkan ID dari URL (req.params.id).
 
@@ -42,7 +42,7 @@ Proyek ini adalah REST API sederhana yang dibuat dengan Node.js dan Express.js. 
 
 ✅ Jika user tidak ditemukan, kembalikan error 404 dengan pesan "User tidak ditemukan!".
 
--Endpoint POST /users
+**-Endpoint POST /users**
 
 ✅ Endpoint POST /users menerima JSON body { "name": "Budi" }.
 
@@ -50,7 +50,7 @@ Proyek ini adalah REST API sederhana yang dibuat dengan Node.js dan Express.js. 
 
 ✅ Kembalikan user yang baru ditambahkan.
 
--Endpoint PUT /users/:id
+**-Endpoint PUT /users/:id**
 
 ✅ Ambil user berdasarkan ID.
 
@@ -58,7 +58,7 @@ Proyek ini adalah REST API sederhana yang dibuat dengan Node.js dan Express.js. 
 
 ✅ Jika user tidak ditemukan, kembalikan error 404.
 
--Endpoint DELETE /users/:id
+**-Endpoint DELETE /users/:id**
 
 ✅ Hapus user berdasarkan ID.
 
@@ -66,6 +66,6 @@ Proyek ini adalah REST API sederhana yang dibuat dengan Node.js dan Express.js. 
 
 ✅ Jika user tidak ditemukan, kembalikan error 404.
 
--Middleware Logger
+**-Middleware Logger**
 
 ✅ Tambahkan middleware yang mencatat method & path setiap request yang masuk.
